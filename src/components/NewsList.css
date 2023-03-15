@@ -1,0 +1,100 @@
+.news-app { 
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.news-item {
+    width: 400px;
+    height: 600px;
+    border: 1px solid;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.news-img {
+    border-radius: 20px;
+    width: 100%;
+    height: 50%;
+}
+
+.nav{
+    background: rgb(60, 60, 60);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+}
+
+.nav .logo{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav .bookmark .icon{
+    font-size: 20px;
+}
+
+.bookmark a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.book_btn{
+    position: absolute;
+    padding: 10px 30px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    bottom: 5%;
+    left: 35%;
+}
+
+.rem_book_btn{
+    position: absolute;
+    padding: 10px 30px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    bottom: 10%;
+    left: 25%;
+}
+
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.count{
+    padding: 0 3px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    position: relative;
+    top: -15px;
+    left: 30px;
+}
+
+@media(max-width:786px){
+    .news-item {
+        width: 90%;
+        height: 600px;
+        border: 1px solid;
+        border-radius: 20px;
+        margin-bottom: 20px;
+       
+    }
+}
